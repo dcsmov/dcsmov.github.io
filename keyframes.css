@@ -1,6 +1,15 @@
-@keyframes rgb-username {
-	from {color: #ff0000}
-	33% {color: #00ff00}
-	66% {color: #0000ff}
-	100% {color: #fe0000}
+@-webkit-keyframes pagetitle {
+    0%{background-position:0%}
+    50%{background-position:100%}
+    100%{background-position:0%}
+}
+@-moz-keyframes pagetitle {
+    0%{background-position:0%}
+    50%{background-position:100%}
+    100%{background-position:0%}
+}
+@keyframes pagetitle {
+    0%{background-position:0%}
+    50%{background-position:100%}
+    100%{background-position:0%}
 }
