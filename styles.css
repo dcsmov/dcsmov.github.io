@@ -1,0 +1,35 @@
+html, body {
+	background-color: #202020;
+	margin: 0px;
+	padding: 0px;
+}
+
+#appmount {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#navbar {
+	background-color: #101010;
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+#navbar #pagetitle {
+	
+}
+
+#navbar ~ div {
+	display: flex;
+	flex-direction: row;
+}
+
+.text {
+	color: white;
+}

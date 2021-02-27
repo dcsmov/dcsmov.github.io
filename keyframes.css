@@ -1,0 +1,6 @@
+@keyframes rgb-username {
+	from {color: #ff0000}
+	33% {color: #00ff00}
+	66% {color: #0000ff}
+	100% {color: #fe0000}
+}
