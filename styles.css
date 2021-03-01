@@ -53,7 +53,6 @@ iframe {
 
 #sidebar {
 	width: 15%;
-	background-color: rgba(0,0,0,0.35);
 	background: linear-gradient(
 	60deg, 
 	rgb(255,0,0), 
@@ -63,12 +62,12 @@ iframe {
 	rgb(0,0,255),
 	rgb(75,0,130),
 	rgb(238,130,238)
-	) !important;
-	background-size: 1000% 90% !important;
+	);
+	background-size: 1000% 90%;
 
-	-webkit-animation: pagetitle 20s ease-in-out infinite !important;
-	-moz-animation: pagetitle 20s ease-in-out infinite !important;
-	animation: pagetitle 20s ease-in-out infinite !important;
+	-webkit-animation: pagetitle 20s ease-in-out infinite;
+	-moz-animation: pagetitle 20s ease-in-out infinite;
+	animation: pagetitle 20s ease-in-out infinite;
 }
 #sidebar iframe {
 	height: flex;
