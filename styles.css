@@ -43,7 +43,7 @@ iframe {
 	rgb(238,130,238)
 	);
 	background-clip: text;
-	color: transparent;
+	-webkit-text-fill-color: transparent;
 	background-size: 1000% 90%;
 
 	-webkit-animation: pagetitle 20s ease-in-out infinite;
