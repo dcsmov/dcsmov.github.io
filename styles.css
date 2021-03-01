@@ -28,6 +28,10 @@ iframe {
 	display: flex;
 	flex-direction: row;
 	width: 15%;
+}
+#navbar #pagetitle h2 {
+	text-align: center;
+	width: 100%;
 	background: linear-gradient(
 	60deg, 
 	rgb(255,0,0), 
@@ -45,10 +49,6 @@ iframe {
 	-webkit-animation: pagetitle 20s ease-in-out infinite;
 	-moz-animation: pagetitle 20s ease-in-out infinite;
 	animation: pagetitle 20s ease-in-out infinite;
-}
-#navbar #pagetitle h2 {
-	text-align: center;
-	width: 100%;
 }
 #reversenavflex {
 	display: flex;
