@@ -65,15 +65,18 @@ iframe {
 	-moz-animation: pagetitle 20s ease-in-out infinite !important;
 	animation: pagetitle 20s ease-in-out infinite !important;
 }
+#page #sidebar,
+#page #content {
+	background: inherit !important;
+}
+
 #sidebar {
 	width: 15%;
-	background-color: #000000;
-	opacity: 0.4 !important;
+	background-color: rgba(0,0,0,0.6);
 }
 #sidebar iframe {
 	height: flex;
 	width: 100%;
-	opacity: 1.0 !important;
 }
 
 #content {
