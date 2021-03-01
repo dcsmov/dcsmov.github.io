@@ -28,6 +28,7 @@ iframe {
 	display: flex;
 	flex-direction: row;
 	width: 15%;
+	color: white;
 }
 #navbar #pagetitle h2 {
 	text-align: center;
