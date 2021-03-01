@@ -43,8 +43,8 @@ iframe {
 	background-size: 1000% 90%;
 
 	-webkit-animation: pagetitle 20s ease-in-out infinite;
-    -moz-animation: pagetitle 20s ease-in-out infinite;
-    animation: pagetitle 20s ease-in-out infinite;
+	-moz-animation: pagetitle 20s ease-in-out infinite;
+	animation: pagetitle 20s ease-in-out infinite;
 }
 #navbar #pagetitle h2 {
 	text-align: center;
