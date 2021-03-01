@@ -66,6 +66,10 @@ html, body {
 #sidebar {
 	width: 15%;
 }
+#sidebar iframe {
+	height: 100%;
+}
+
 #content {
 	background-color: #202020;
 	display: flex;
