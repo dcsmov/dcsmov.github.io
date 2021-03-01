@@ -58,24 +58,22 @@ iframe {
 	rgb(0,0,255),
 	rgb(75,0,130),
 	rgb(238,130,238)
-	);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-size: 1000% 90%;
+	) !important;
+	background-size: 1000% 90% !important;
 
-	-webkit-animation: pagetitle 20s ease-in-out infinite;
-	-moz-animation: pagetitle 20s ease-in-out infinite;
-	animation: pagetitle 20s ease-in-out infinite;
+	-webkit-animation: pagetitle 20s ease-in-out infinite !important;
+	-moz-animation: pagetitle 20s ease-in-out infinite !important;
+	animation: pagetitle 20s ease-in-out infinite !important;
 }
 #sidebar {
 	width: 15%;
 	background-color: #000000;
-	opacity: 0.4;
+	opacity: 0.4 !important;
 }
 #sidebar iframe {
 	height: flex;
 	width: 100%;
-	opacity: 1.0;
+	opacity: 1.0 !important;
 }
 
 #content {
