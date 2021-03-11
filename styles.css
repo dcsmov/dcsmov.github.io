@@ -28,7 +28,16 @@ iframe {
 	display: flex;
 	flex-direction: row;
 	width: 15%;
-	color: white;
+	color: linear-gradient( 
+		60deg, 
+		rgb(255,0,0), 
+		rgb(255,165,0),
+		rgb(255,255,0),
+		rgb(0,128,0),
+		rgb(0,0,255),
+		rgb(75,0,130),
+		rgb(238,130,238)
+	);
 	user-select: none;
 }
 @font-face {
