@@ -28,6 +28,7 @@ iframe {
 	display: flex;
 	flex-direction: row;
 	width: 15%;
+	color: white;
 	user-select: none;
 }
 @font-face {
@@ -39,7 +40,6 @@ iframe {
 #navbar #pagetitle h2 {
 	text-align: center;
 	width: 100%;
-	color: white;
 	font-family: "Discord-Sans";
 }
 #reversenavflex {
