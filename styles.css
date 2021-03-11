@@ -55,10 +55,12 @@ iframe {
 #sidebar {
 	width: 15%;
 	height: flex;
+	display: flex;
+	flex-direction: column;
 }
 #sidebar iframe {
-	height: flex;
 	width: 100%;
+	flex: 1
 }
 
 #content {
