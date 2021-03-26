@@ -19,7 +19,6 @@ iframe {
 
 #navbar {
 	background-color: #000000;
-	height: auto;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -56,8 +55,7 @@ iframe {
 	display: flex;
 	flex-direction: row-reverse;
 	width: 100%;
-	height: flex;
-	flex: 1;
+	height: 100%;
 }
 
 #sidebar {
