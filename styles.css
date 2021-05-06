@@ -76,9 +76,6 @@ iframe {
 	flex-direction: column;	
 	flex: 1;
 }
-#content p {
-	color: white;
-}
 
 #footer {
 	background-color: #101010;
